@@ -3,11 +3,11 @@ void main() {
     if (nb % 3 == 0 && nb % 5 != 0){
       print ("Fizz");
     } else if (nb % 5 == 0 && nb % 3 != 0){
-        print ("Buzz");
+      print ("Buzz");
     } else if (nb % 3 == 0 && nb % 5 == 0){
-          print ("FizzBuzz");
+      print ("FizzBuzz");
     } else {
-            print(nb);
+      print(nb);
     }
   }
 }
